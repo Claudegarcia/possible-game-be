@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 // Create Schema
 const HighScores = new Schema({
-  initials:{
+  name:{
 type: String
   },
 
