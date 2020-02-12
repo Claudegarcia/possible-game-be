@@ -2,9 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const passport = require("passport");
-
 const users = require("./routes/api/users");
-const games = require("./routes/api/games");
 const highScores = require("./routes/api/high-scores");
 
 const app = express();
